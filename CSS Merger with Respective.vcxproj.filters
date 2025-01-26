@@ -13,10 +13,35 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Test Files">
+      <UniqueIdentifier>{81ebda12-a9df-4f12-ba8c-32e2b93d7f84}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CSS Merger with Respective.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="CSSParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CSSParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CSSRule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="test-files\input1.css">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="test-files\input2.css">
+      <Filter>Test Files</Filter>
+    </None>
   </ItemGroup>
 </Project>
